@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC');
+*{
+    background-color: rgb(248, 247, 247);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    
+    color: rgb(10, 10, 12);
+    font-size: 16px;
+    margin-top: 3em;
+    font-family: sans-serif;
+}
+a{
+    color:rgb(8, 104, 104);
+    padding: .25rem .5rem;
+}
+
+h1,h2,h3{
+    font-size: 3em;
+     color:rgb(221, 34, 112);
+     font: 20px/1.618em sans-serif;
+     font-family: 'Amatic SC',sans-serif;
+    }
+header,
+main,
+#footer {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+header{
+    padding: 2em 0;
+}
+header h1{
+     text-shadow: 2px 2px 5px rgb(71, 135, 196);
+    font-size: 5em;
+    text-align: center;
+    
+}
+header p{
+    text-align: center;
+     font-size: 3em;
+    color: rgb(228, 163, 163);
+    
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+
+}
+nav a {
+    padding: .5em 2em;
+    text-decoration: none;
+    color:rgb(233, 184, 184)
+    
+}
+nav a:hover {
+    background: rgb(228, 168, 168);
+border-radius: 1rem;
+}
+section {
+   margin: 1em 0;
+
+   padding: 3em;
+   min-height: 20em;
+}
+
+
+section > p{
+    margin: 1em 0;
+}
+
+
+.aboutMe{
+   
+    font-size: 1.5em;
+
+}.aboutMe h2{
+    font-size: 2em;
+}
+
+.aboutMe p{
+    text-align: center;
+    margin: 2em;
+    
+}
+.aboutMe article img{
+    width: 100%;
+    border-radius: 50%;
+   
+}
+
+#aboutMe article{
+    background:-moz-repeating-linear-gradient(3,1fr);
+    width:15em;
+}
+
+#contactMe {
+    font-size: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:auto;
+
+    grid-column-gap: 2em;
+}
+
+
+
+
+
+
+#projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:auto;
+
+    grid-column-gap: 2em;
+}
+#projects p {
+    text-align: center;
+
+}
+#project h2{
+   
+    text-align: center;
+}
+
+#projects article {
+    background:-moz-repeating-linear-gradient(3,1fr);
+    width:15em;
+
+    padding: 1em;
+}
+
+#projects article img {
+
+  width: 100%;
+}
+
+
+
+footer {
+    justify-content: center;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em; 
+    background-color: #666;   
+    color: #fff;
+    
+}
